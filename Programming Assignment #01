@@ -1,0 +1,7 @@
+# Get dimensions from user
+l = float(input("Length (m): "))
+w = float(input("Width (m): "))
+
+# Calculate and print results
+print(f"Area: {l*w} m²")
+print(f"Perimeter: {2*(l+w)} m")
