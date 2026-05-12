@@ -1,0 +1,14 @@
+# Get two integers from the user
+num1 = int(input("Enter the first integer: "))
+num2 = int(input("Enter the second integer: "))
+
+# Calculate the sum of the two numbers
+result = num1 + num2
+
+# Check whether the result is positive, negative, or zero
+if result > 0:
+    print("The answer is positive")
+elif result < 0:
+    print("The answer is negative")
+else:
+    print("The sum is zero")
