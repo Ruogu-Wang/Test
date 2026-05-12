@@ -1,0 +1,19 @@
+# Step 1: Create an empty dictionary
+user_info = {}
+
+# Step 2: Collect user information
+user_info["name"] = input("Enter your name: ")
+user_info["age"] = input("Enter your age: ")
+user_info["school"] = input("Enter your school: ")
+user_info["city"] = input("Enter your city: ")
+user_info["height"] = input("Enter your height: ")
+
+# Step 3: Ask if user wants to print the information
+choice = input("Do you want to display your information? (yes/no): ")
+
+# Step 4: Print or exit
+if choice.lower() == "yes":
+    print(user_info)
+    print("Goodbye")
+else:
+    print("Goodbye")
