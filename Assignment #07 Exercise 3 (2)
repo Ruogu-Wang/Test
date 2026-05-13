@@ -1,0 +1,11 @@
+total = 0
+
+for _ in iter(int, 1):   # infinite loop using for
+    num = int(input("Enter an integer (0 to stop): "))
+
+    if num == 0:
+        break
+
+    total += num
+
+print("Sum:", total)
